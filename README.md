@@ -17,7 +17,7 @@ Additionally, the code finds and reports the stocks with the greatest percentage
 
 A for loop iterates through each row fo the worksheet until the last row. 
 
-The code adds the stock's name and initial value to the list. If the stock already exists in teh list, the code aggregates the stock's volume:
+The code adds the stock's name and initial value to the list. If the stock already exists in the list, the code aggregates the stock's volume:
 
         'For A2 until the last row...
         For i = 2 To lastRow
